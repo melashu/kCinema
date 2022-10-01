@@ -1,5 +1,4 @@
 import React from "react";
-import { useSelector } from "react-redux";
 import ShowList from "../ShowList/ShowList";
 import DramaList from "../DramaList/DramaList";
 import MovieList from "../MovieList/MovieList";
