@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import "./PageNotFound.css";
 
 const PageNotFound = () => {
   return (
-    <div>PageNotFound</div>
-  )
-}
+    <div className="page-not-found">
+      <div className="not-found-message">Page Not Found</div>
+    </div>
+  );
+};
 
-export default PageNotFound
+export default PageNotFound;
