@@ -1,0 +1,31 @@
+.movielist-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  justify-content: center;
+}
+h1 {
+  color: var(--font-primary);
+}
+
+.loadding-status {
+  width: 20%;
+  margin: 100px auto;
+  color: var(--font-primary);
+  font-size: 22px;
+  font-weight: 500;
+  font-style: italic;
+  letter-spacing: 0.03em;
+  padding: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+@media screen and (max-width: 767px) {
+  .movielist-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+
+  }
+}

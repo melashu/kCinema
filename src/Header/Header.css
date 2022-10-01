@@ -7,8 +7,36 @@
   min-height: 60px;
   position: sticky;
   width: 100%;
+  box-shadow: 1px 3px 10px #f1f1f1;
+}
+.search-form {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  border: 3px solid saddlebrown;
+  align-items: center;
+  border-radius: 50px;
+  padding: 8px;
+  background-color: #fff;
+}
+.search {
+  border: none;
+  outline: none;
+  width: 90%;
+  text-transform: capitalize;
+  font-size: 16px;
+  padding: 5px;
+
 }
 
+.btn-search{
+  border: none;
+  background-color: transparent;
+}
+.search-icon {
+  font-size: 30px;
+  color: var(--font-primary);
+}
 a {
   text-decoration: none;
   color: var(--font-primary);
@@ -18,4 +46,29 @@ a {
   display: flex;
   justify-content: space-around;
   width: 25%;
+  align-items: center;
+}
+
+.user-image {
+  cursor: pointer;
+  color: var(--font-primary);
+
+}
+
+@media screen and (max-width:767px) {
+  .search-form {
+  width: 30%;
+
+}
+
+.user-image {
+  cursor: pointer;
+  color: var(--font-primary);
+  display: none;
+}
+
+.menu-nav{
+display: none;
+}
+
 }
