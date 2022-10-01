@@ -1,0 +1,15 @@
+.page-not-found {
+
+  background-color: var(--secondary-color);
+  color: var(--font-primary);
+  height: 76vh;
+  overflow: hidden;
+
+}
+
+.not-found-message {
+    position: relative;
+    top: 50%;
+    left: 50%;
+
+}

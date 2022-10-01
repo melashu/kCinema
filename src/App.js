@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
-
+import { Route, Routes } from "react-router-dom";
+import EHome from "./EnglishMovie/EHome/EHome";
+import Footer from "./Footer/Footer";
+import Header from "./Header/Header";
+import EMovieDetail from "./EnglishMovie/EMovieDetail/EMovieDetail";
+import EMovieList from "./EnglishMovie/EMovieList/EMovieList";
+import PageNotFound from "./PageNotFound/PageNotFound";
+import "./App.css";
+import Home from "././AmahricMovie/Home/Home";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Routes>
+        <Route path="/" element={<EHome />}></Route>
+        <Route path="/movielist" element={<EMovieList />} />
+        <Route path="/movielist/:movieID" element={<EMovieDetail />} />
+        <Route path="/amaharic" element={<Home />} />
+        <Route path="*" element={<PageNotFound />}></Route>
+      </Routes>
+      <Footer />
     </div>
   );
 }

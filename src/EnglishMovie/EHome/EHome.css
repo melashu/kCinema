@@ -1,0 +1,46 @@
+.container {
+  background-color: var(--secondary-color);
+  min-height: 76vh;
+  padding-top: 20px;
+}
+
+.title {
+  color: var(--font-primary);
+  text-align: center;
+  font-size: 22px;
+  letter-spacing: 0.03em;
+  padding: 10px;
+  text-transform: uppercase;
+}
+.selector-lable {
+  padding: 10px;
+  font-size: 16px;
+  color: var(--font-primary);
+}
+
+.type-selector {
+  width: 15%;
+  padding: 10px;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  border: 2px solid var(--font-primary);
+  margin-left: 10px;
+  margin-bottom: 50px;
+  outline: none;
+}
+
+.type-selector option {
+  padding: 5px;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 767px) {
+  .type-selector {
+    width: 80%;
+    margin-top: 10px;
+  }
+  .title{
+    text-align: left;
+  }
+}
