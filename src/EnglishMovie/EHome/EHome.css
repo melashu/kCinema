@@ -1,0 +1,10 @@
+.container {
+  background-color: var(--secondary-color);
+  min-height: 200px;
+  margin-top: 50px;
+}
+
+.title{
+    color: var(--font-primary);
+    
+}
