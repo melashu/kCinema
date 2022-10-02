@@ -18,7 +18,6 @@ function App() {
         <Route path="/movielist/:movieID" element={<EMovieDetail />} />
         <Route path="/amaharic" element={<Home />} />
         <Route path="/amaharic/:id" element={<MovieDetail />} />
-
         <Route path="*" element={<PageNotFound />}></Route>
       </Routes>
       <Footer />

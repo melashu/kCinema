@@ -8,7 +8,6 @@ import { Link } from "react-router-dom";
 
 const EMovieList = () => {
   const movieList = useSelector(getState);
-  
   return (
     <div className="movielist-container">
       {movieList ? (
