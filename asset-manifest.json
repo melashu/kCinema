@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/kCinema/static/css/main.32cd9e75.css",
+    "main.js": "/kCinema/static/js/main.d27e0d43.js",
+    "static/media/show2.jpg": "/kCinema/static/media/show2.9288a73623eaac4985b7.jpg",
+    "static/media/show8.jpg": "/kCinema/static/media/show8.7d8b5e6626df5f6b9734.jpg",
+    "static/media/drama5.jpg": "/kCinema/static/media/drama5.0874cee18d433fe7886b.jpg",
+    "static/media/show6.jpg": "/kCinema/static/media/show6.73048084c3ea4c1bfac6.jpg",
+    "static/media/drama2.jpg": "/kCinema/static/media/drama2.d4aa9409b27a0752c138.jpg",
+    "static/media/movie6.jpg": "/kCinema/static/media/movie6.0d94e70aeb86a95d0b7f.jpg",
+    "static/media/movie2.jpg": "/kCinema/static/media/movie2.aafd1fd458764817e1c8.jpg",
+    "static/media/drama8.jpg": "/kCinema/static/media/drama8.4f73bb1feda76989fe0a.jpg",
+    "static/media/show3.jpg": "/kCinema/static/media/show3.3a9505b265282215cfac.jpg",
+    "static/media/drama4.jpg": "/kCinema/static/media/drama4.ab5a80c8583f988f625b.jpg",
+    "static/media/movie3.jpg": "/kCinema/static/media/movie3.8aa8314ce76eeff677e6.jpg",
+    "static/media/drama3.jpg": "/kCinema/static/media/drama3.086aa100aca99faaf6a7.jpg",
+    "static/media/show5.jpg": "/kCinema/static/media/show5.e1d90cfba8b298fba0e1.jpg",
+    "static/media/show4.jpg": "/kCinema/static/media/show4.b0605aa2ba606716d5e4.jpg",
+    "static/media/show7.jpg": "/kCinema/static/media/show7.f0f65514176cb2aa5f2f.jpg",
+    "static/media/drama7.jpg": "/kCinema/static/media/drama7.2f0c188f42f2fee1dbb3.jpg",
+    "static/media/movie8.jpg": "/kCinema/static/media/movie8.d50835083cf01dd9e2b1.jpg",
+    "static/media/movie11.jpg": "/kCinema/static/media/movie11.e63249d86674e4688d46.jpg",
+    "static/media/movie10.jpg": "/kCinema/static/media/movie10.fdbe4ede0f8cb273c115.jpg",
+    "static/media/movie5.jpg": "/kCinema/static/media/movie5.09ec2bdf52f0575ad4ef.jpg",
+    "static/media/movie4.jpg": "/kCinema/static/media/movie4.b39337f5c4ded4ee1c2b.jpg",
+    "index.html": "/kCinema/index.html",
+    "main.32cd9e75.css.map": "/kCinema/static/css/main.32cd9e75.css.map",
+    "main.d27e0d43.js.map": "/kCinema/static/js/main.d27e0d43.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.32cd9e75.css",
+    "static/js/main.d27e0d43.js"
+  ]
+}
