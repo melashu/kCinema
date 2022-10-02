@@ -14,7 +14,12 @@ kCinema is a movie store app. It is built using react, react-redux, axios, CSS, 
 # Comming soon
 
 ## Screenshot 
-Comming soon
+
+### Amahric Movie
+![image](https://user-images.githubusercontent.com/30173722/193448864-dfe7903e-5d1d-43b4-851e-a5943d76781f.png)
+
+### English Movie
+![image](https://user-images.githubusercontent.com/30173722/193449176-5054d0d8-09f2-4f5d-b0ba-5cae1037395d.png)
 
 ## Getting Started
 
