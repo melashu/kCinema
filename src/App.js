@@ -7,6 +7,7 @@ import EMovieList from "./EnglishMovie/EMovieList/EMovieList";
 import PageNotFound from "./PageNotFound/PageNotFound";
 import "./App.css";
 import Home from "././AmahricMovie/Home/Home";
+import MovieDetail from "./AmahricMovie/MovieDetail/MovieDetail";
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,8 @@ function App() {
         <Route path="/movielist" element={<EMovieList />} />
         <Route path="/movielist/:movieID" element={<EMovieDetail />} />
         <Route path="/amaharic" element={<Home />} />
+        <Route path="/amaharic/:id" element={<MovieDetail />} />
+
         <Route path="*" element={<PageNotFound />}></Route>
       </Routes>
       <Footer />
