@@ -11,7 +11,7 @@ kCinema is a movie store app. It is built using react, react-redux, axios, CSS, 
 - JSX
 
 ## Live Demo
-# Comming soon
+[Go Live](https://kcinema.netlify.app/)
 
 ## Screenshot 
 
