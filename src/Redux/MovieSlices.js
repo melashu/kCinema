@@ -16,7 +16,7 @@ const fetchMovieAsyncThunk = createAsyncThunk(
   async ({ type = "movie", term }) => {
     try {
       const resounse = await axios.get(
-        `http://www.omdbapi.com/?s=${term}&apikey=d2720bf3&type=${type}`
+        `https://www.omdbapi.com/?s=${term}&apikey=d2720bf3&type=${type}`
       );
       if (resounse.data["Response"]) return resounse.data["Search"];
       return false;
@@ -32,7 +32,7 @@ const fetchMovieByID = createAsyncThunk(
   async (id) => {
     try {
       const resounse = await axios.get(
-        `http://www.omdbapi.com/?i=${id}&apikey=d2720bf3`
+        `https://www.omdbapi.com/?i=${id}&apikey=d2720bf3`
       );
       return resounse.data;
     } catch (error) {
