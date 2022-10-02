@@ -54,6 +54,15 @@ const movieSlice = createSlice({
     RemoveMovieById: (state) => {
       state.movieOrSerisById = {};
     },
+    FindMovieById: (state, action) => {
+      state.ethioMovies.forEach(movie => {
+        if (movie.id === +action.payload) {
+          state.movieOrSerisById = movie;
+          return;
+        }
+      })
+    }
+
  
   },
   extraReducers: (builder) => {
@@ -69,11 +78,11 @@ const movieSlice = createSlice({
 const getEthioMovies = (state) => state.movie.ethioMovies;
 const getEthioDramas = (state) => state.movie.ethioDramas;
 const getEthioShows = (state) => state.movie.ethioShows;
-
 const getState = (state) => state.movie.movie;
 const getSearchTerm = (state) => state.movie.searchTearm;
 const getMovieById = (state) => state.movie.movieOrSerisById;
-export const { getBooks, SearchTerm, RemoveMovieById } = movieSlice.actions;
+export const { getBooks, SearchTerm, RemoveMovieById, FindMovieById } =
+  movieSlice.actions;
 export {
   getState,
   fetchMovieAsyncThunk,
@@ -83,5 +92,6 @@ export {
   getEthioMovies,
   getEthioDramas,
   getEthioShows,
+  
 };
 export default movieSlice.reducer;
