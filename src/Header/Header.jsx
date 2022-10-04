@@ -7,6 +7,7 @@ import { FaSearch } from "react-icons/fa";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchMovieAsyncThunk, getSearchTerm } from "../Redux/MovieSlices";
 import { SearchTerm } from "../Redux/MovieSlices";
+import logo from "../AmahricMovie/image/logo.png"
 const Header = () => {
   const searchTerm = useSelector(getSearchTerm);
   const [term, setTerm] = useState("");
@@ -21,7 +22,10 @@ const Header = () => {
   return (
     <header className="header">
       <div className="logo">
-        <Link to="/">kCinema</Link>
+        <Link to="/">
+          
+          <img src={logo} alt="logo" />
+        </Link>
       </div>
       <form className="search-form" onSubmit={submitHundleer}>
         <input
@@ -32,7 +36,6 @@ const Header = () => {
           onChange={(e) => {
             const searchTerm = e.target.value.trim();
             setTerm(searchTerm);
-           
           }}
         />
         <button className="btn-search" type="submit">
@@ -45,7 +48,7 @@ const Header = () => {
           <NavLink to="/">English Movie</NavLink>
         </li>
         <li>
-          <NavLink to="/amaharic">Amaharic Movie</NavLink>
+          <NavLink to="/amaharic">አማርኛ ፊልም</NavLink>
         </li>
         <div className="user-image">
           <FaUserCircle />
