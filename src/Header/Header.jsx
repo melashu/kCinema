@@ -32,7 +32,6 @@ const Header = () => {
           onChange={(e) => {
             const searchTerm = e.target.value.trim();
             setTerm(searchTerm);
-           
           }}
         />
         <button className="btn-search" type="submit">
@@ -45,7 +44,7 @@ const Header = () => {
           <NavLink to="/">English Movie</NavLink>
         </li>
         <li>
-          <NavLink to="/amaharic">Amaharic Movie</NavLink>
+          <NavLink to="/amaharic">አማርኛ ፊልም</NavLink>
         </li>
         <div className="user-image">
           <FaUserCircle />
