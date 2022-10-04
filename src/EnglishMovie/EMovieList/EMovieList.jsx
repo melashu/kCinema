@@ -8,14 +8,15 @@ import { Link } from "react-router-dom";
 
 const EMovieList = () => {
   const movieList = useSelector(getState);
+  const cardList = movieList.map((movie, index) => (
+    <Link key={index + 1} to={`/movielist/${movie.imdbID}`}>
+      <MovieCard data={movie} />
+    </Link>
+  ));
   return (
     <div className="movielist-container">
       {movieList ? (
-        movieList.map((movie, index) => (
-          <Link key={index + 1} to={`/movielist/${movie.imdbID}`}>
-            <MovieCard key={index} data={movie} />
-          </Link>
-        ))
+        cardList
       ) : (
         <div className="loadding-status">Movie not found!</div>
       )}
