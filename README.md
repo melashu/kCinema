@@ -1,6 +1,6 @@
 # kCinema
 
-kCinema is a movie store app. It is built using react, react-redux, axios, CSS, and using external APIs.
+kCinema is a movie store app. The app was built using react, react-redux, Axios, CSS, and external APIs.I used Axios to fetch remote API dates. The app enables users to filter our serious movies using a dropdown button. Users can search for any film by entering the movie title in the search box. Users can see the details of each movie.
 
 
 ## Built With
